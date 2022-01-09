@@ -104,3 +104,8 @@ body{
 .questions:hover{
     color: hsl(237, 12%, 33%);
 }
+
+
+@media (min-width: 1440px) {
+    
+}
