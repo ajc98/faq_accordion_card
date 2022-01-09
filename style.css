@@ -78,7 +78,7 @@ body{
 }
 
 
-.arrow-img:hover{
+#arrow-img:hover{
     transform: rotate(180deg);
     
 }
