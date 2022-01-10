@@ -102,10 +102,59 @@ body{
 }
 
 .questions:hover{
-    color: hsl(237, 12%, 33%);
+    color: hsl(14, 88%, 65%);
 }
 
 
 @media (min-width: 1440px) {
+    .illus-woman{
+        content: url(images/illustration-woman-online-desktop.svg);
+        width: 40%;
+        height: 50%;
+        object-fit: cover;
+        object-position: -122px -1px;
+        top: 26%;
+        left: 179px;
+        position: absolute;
+    }
     
+    .bg-woman{
+        content: url(images/bg-pattern-desktop.svg);
+        position: absolute;
+        
+        width: 500px;
+        object-fit: cover;
+        object-position: -95px 0px;
+        
+        left: 12%;
+        top: 31%;
+    }
+
+    .card{
+        width: 75%;
+        height: 70%;
+        color: hsl(237, 12%, 33%);
+    }
+
+    .null-block{
+        height: 10%;
+    }
+
+    .content{
+        margin-left: 352px;
+        width: 30%;
+        font-size: 14px;
+    }
+
+    .bg-box{
+        content: url(images/illustration-box-desktop.svg);
+        position: absolute;
+        left: 3%;
+        top: 47%;
+    }
+
+    .faq{
+        margin-left: 85px;
+        margin-bottom: 30px;
+    }
 }
