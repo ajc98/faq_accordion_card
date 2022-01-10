@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="style.css">
+  <script type='text/javascript' src='script.js'></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <div class="container">
+    <img class='bg-woman' src='images/bg-pattern-mobile.svg'>
+    <img class='illus-woman' src='images/illustration-woman-online-mobile.svg'>
+    <img class="bg-box">
+    <div class='card'>
+      <div class='null-block'></div>
+      <span class='faq'>FAQ</span>
+      <div class='content'>
+        <div class='questions'>
+          <span id='question1' onClick='showAnswer(this.id)' class='question'>How many team members can I invite?</span>
+          <img id='arrow-img1' src='images/icon-arrow-down.svg'>
+        
+        </div>  
+        <div class='answers'>
+          <span id='answer1' class='answer'>You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</span>
+          
+        </div>  
+        <hr class='division'> 
+
+        <div class='questions'>
+          <span id='question2' onClick='showAnswer(this.id)' class='question'>What is the maximum file upload size?</span>
+          <img id='arrow-img2' src='images/icon-arrow-down.svg'>
+        
+        </div>  
+        <div class='answers'>
+          <span id='answer2' class='answer'>No more than 2GB. All files in your account must fit your allotted storage space.</span>
+          
+        </div>  
+        <hr class='division'>  
+
+        <div class='questions'>
+          <span id='question3' onClick='showAnswer(this.id)' class='question'>How do I reset my password?</span>
+          <img id='arrow-img3' src='images/icon-arrow-down.svg'>
+        
+        </div>  
+        <div class='answers'>
+          <span id='answer3' class='answer'>Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</span>
+          
+        </div>  
+        <hr class='division'>  
+
+        <div class='questions'>
+          <span id='question4' onClick='showAnswer(this.id)' class='question'>Can I cancel my subscription?</span>
+          <img id='arrow-img4' src='images/icon-arrow-down.svg'>
+        
+        </div>  
+        <div class='answers'>
+          <span id='answer4' class='answer'>Yes! Send us a message and we’ll process your request no questions asked.</span>
+          
+        </div>  
+        <hr class='division'>  
+
+        <div class='questions'>
+          <span id='question5' onClick='showAnswer(this.id)' class='question'>Do you provide additional support?</span>
+          <img id='arrow-img5' src='images/icon-arrow-down.svg'>
+        
+        </div>  
+        <div class='answers'>
+          <span id='answer5' class='answer'>No more than 2GB. All files in your account must fit your allotted storage space.</span>
+          
+        </div>  
+        <hr class='division'>   
+      </div>
+    </div>
+
+  </div>
+  
+
+  
+</body>
+</html>
